@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base{
+    .circle span{
+        position: absolute;
+        height: 85px;
+        width: 20px;
+        text-align: center;
+        transform-origin: bottom center;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 700;
+        font-size: 20px;
+    }
+}
